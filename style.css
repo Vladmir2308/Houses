@@ -574,6 +574,14 @@ span{
 }
 
 @media (max-width: 530px){
+    .header__inner{
+        flex-direction: column;
+    }
+    
+    .nav{
+        margin-top: 15px;
+        font-size: 18px;
+    }
     
     .projects__card{
         font-size: 10px;
